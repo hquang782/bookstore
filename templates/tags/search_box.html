@@ -1,0 +1,12 @@
+<form id="search" action="{% url 'search_results' %}" method="get">
+    <h3><label for="id_q">Search</label></h3>
+    <div style="text-align: right;">
+        <!-- <input type="text" name="q" placeholder="Search">
+        <input type="submit"  value="Search"/> -->
+        <input type="text" name="q" placeholder="Search">
+        <button type="submit" style="background: none; border: none; padding: 0; margin: 0; cursor: pointer;">
+            
+            <i class="fa-solid fa-magnifying-glass" style="font-size: 1.5em; color: #555;"></i>
+        </button>
+    </div>
+</form>

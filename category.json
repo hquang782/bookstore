@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Romance",
+        "slug": "romance",
+        "description": "Love stories and romantic adventures.",
+        "is_active": true
+    },
+    {
+        "name": "Biography",
+        "slug": "biography",
+        "description": "Inspirational life stories.",
+        "is_active": true
+    },
+    {
+        "name": "History",
+        "slug": "history",
+        "description": "Explore the past and historical events.",
+        "is_active": true
+    },
+    {
+        "name": "Self-Help",
+        "slug": "self-help",
+        "description": "Personal development and self-improvement.",
+        "is_active": true
+    },
+    {
+        "name": "Horror",
+        "slug": "horror",
+        "description": "Thrilling and spooky tales.",
+        "is_active": true
+    }
+]

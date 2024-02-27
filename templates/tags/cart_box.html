@@ -1,0 +1,9 @@
+{% with cart_item_count as cart_count %}
+
+<a href="{% url 'show_cart' %}">
+    <i class="fa-solid fa-cart-shopping" style="font-size: 25px;"></i>
+    <!-- <br />
+    {{ cart_count }} Item{{ cart_count|pluralize }} -->
+</a>
+
+{% endwith %}
